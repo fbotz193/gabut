@@ -6,7 +6,8 @@
 */
 
 require('./setting')
-const { default: _makeWaSocket, AnyMessageContent, delay, DisconnectReason, fetchLatestBaileysVersion, useSingleFileAuthState, downloadContentFromMessage, jidDecode, makeInMemoryStore } = require('@adiwajshing/baileys')
+const { default: _makeWaSocket, AnyMessageContent, delay, DisconnectReason, fetchLatestBaileysVersion, useSingleFileAuthState,
+	delay, downloadContentFromMessage, jidDecode, makeInMemoryStore } = require('@adiwajshing/baileys')
 const colors = require('colors')
 const figlet = require("figlet")
 const { color, mylog, infolog } = require("./lib/color")
